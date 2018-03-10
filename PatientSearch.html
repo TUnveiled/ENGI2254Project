@@ -1,0 +1,97 @@
+<?php
+	session_start();
+	if(!isset($_SESSION['id']))
+	{
+		header("Location: http://localhost/Login.html");
+	}
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+        		href = "./style.css"
+        		type = "text/css"
+        		rel  = "stylesheet">
+		<title>MCS-Patient Search</title>
+	</head>
+	<body bgcolor="#BFF1EF">
+		<form action="Units.php">
+				<input type="submit" value="Main Menu">
+		</form>
+		<form class="logout" action="Logout.php">
+				<input type="submit" value="Logout">
+		</form>
+		<div id="User">
+			<?php
+			$USER = $_SESSION["uName"];
+			
+			echo "Signed in as: $USER";
+			?>
+		</div>
+		<form method="post" action="PatientSearch.php">
+		
+			<section class="panel searchpanel">	
+				<h1>Identify a Medical Record</h1> 
+				
+				<h3>Patient Name</h3>
+				<table id="search">
+				<tr>
+					<td class="right">First:</td>
+					<td><input type="text" name="First" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Last:</td>
+					<td><input type="text" name="Last" value=""></td>
+				</tr>
+				</table>
+
+				
+				<h3>Home Address</h3>
+				<table id="search">
+				<tr>
+					<td class="right">City:</td>
+					<td><input type="text" name="City" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Street Name:</td>
+					<td><input type="text" name="StreetName" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Street Number:</td>
+					<td><input type="text" name="StreetNumber" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Postal Code:</td>
+					<td><input type="text" name="Postal" value=""></td>
+				</tr>
+				</table>
+				<br><br><br><br><br><br><br><br>
+
+
+				<h3>Patient Information</h3>
+				<table id="search">
+				<tr>
+					<td class="right">Patient ID:</td>
+					<td><input type="text" name="PID" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Phone Number:</td>
+					<td><input type="phone" name="Phone" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Social Insurance Number:</td>
+					<td><input type="text" name="SIN" value=""></td>
+				</tr>
+				<tr>
+					<td class="right">Health Card Number:</td>
+					<td><input type="text" name="HCN" value=""></td>
+				</tr>
+				</table>
+				<br><br>
+				<input type="submit" value="Search"><br>
+			</section>	
+			</form> 
+		
+	</body>
+</html>

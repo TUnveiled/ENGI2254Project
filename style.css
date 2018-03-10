@@ -1,0 +1,317 @@
+login2 {
+	position: absolute;
+    	width: 100px;
+    	height: 50px;
+    	top: 50%;
+    	left: 50%;
+    	margin-left: -50px;
+    	margin-top: -25px; 
+}
+
+html {
+	text-style:Courier New;
+}
+
+login {
+    position: fixed;
+    display: block;
+    top: 50%;
+    left: 128px;
+    margin: -100px 0 0 0;
+    height: 200px;
+    width: 50px;
+}
+table {
+	border: 2px solid black;
+	width: 100%;	
+}
+
+section {
+	display: inline-block;
+}
+
+td {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+th {
+	text-align: center;
+	font-size: 30px;
+}
+
+.fullscreen {
+	width: 100%;
+    	height: auto;
+    	bottom: 0px;
+    	top: 0px;
+    	left: 0;
+    	position: absolute;
+}
+
+#bg {
+  overflow: hidden;
+}
+
+#bg img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logout {
+	top: 8px;
+	right: 8px;
+	position: absolute;
+}
+
+.panel {
+	position: absolute;
+        width: 75.5%;
+	min-width: 500px;
+	min-height: 550px;
+	border: 2px solid black;
+        padding: 10px 0;
+        text-align: center;
+        background-color: lightblue;
+}
+
+.mainpanel {
+	margin-top: 128px;
+}
+
+.notepanel {
+	top: 100px;
+	left: 5px;
+	right: 5px;
+	width: 99%;
+	min-width: 600px;
+	font-size: 20px;
+}
+
+.searchpanel {
+	columns: 400px 2;
+	min-height: 500px;
+	top: 85px;
+	left: 5px;
+	right: 5px;
+	width: 99%;
+}
+
+#Notes {
+	font-size: 20px;
+}
+#OrderHistory {
+}
+#Medications {
+}
+#Reports {
+}
+#Laboratory {
+}
+#Imaging {
+}
+#Summary {
+}
+#Contacts {
+	font-size: 26px;
+}
+#Demographics {
+	font-size: 26px;
+}
+#Providers {
+	font-size: 26px;
+}
+
+#client_info {
+	position:absolute;
+	display: inline-block;
+	width: 75.5%;
+	min-width: 500px;
+	height: 100px;
+	min-height: 100px;
+	border: 2px solid black;
+        padding: 10px 0;
+        text-align: center;
+        background-color: lightblue;
+}
+#Buttons {
+	position:absolute;
+	right: 10px;
+	left: 77%;
+	display: inline-block;
+        min-width: 22%;
+	min-height: 220px;
+	border: 2px solid black;
+        padding: 10px 0;
+        text-align: center;
+        background-color: lightblue;
+}
+
+button:hover {
+	background-color: lightskyblue;
+}
+
+input {
+	background-color: lightblue;
+	border: 2px solid darkblue;
+	border-radius: 15px;
+	color: black;
+	width: 300px;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+input:hover {
+	background-color: lightskyblue;
+}
+
+.sidebutton {
+	background-color: lightblue;
+	border: 2px solid darkblue;
+	border-radius: 15px;
+	color: black;
+	width: 80%;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.panelbutton {
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 1px;
+	color: black;
+	width: 25%;
+	padding: 10px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#noteview {
+	border: 2px solid black;
+	width: 100%;
+	font-size: 20px;
+	background-color: lightblue;
+}
+#noteview tr{
+	background-color: #eee;
+	border-top: 1px solid #fff;
+	font-size: 20px;
+}
+
+#noteview th {
+	padding: 3px 5px;
+}
+#noteview td:hover {
+	cursor: pointer;
+}
+#noteview tr:hover {
+	background-color: #ccc;
+}
+#noteview th {
+	background-color: #fff;
+}
+#noteview th, #example td {
+	padding: 3px 5px;
+}
+
+#Units {
+	border: 2px solid black;
+	width: 100%;
+	font-size: 48px;
+	background-color: lightblue;
+}
+#Units tr{
+	background-color: #eee;
+	border-top: 1px solid #fff;
+	font-size: 48px;
+}
+
+#Units th {
+	padding: 3px 5px;
+}
+#Units td:hover {
+	cursor: pointer;
+}
+#Units tr:hover {
+	background-color: #ccc;
+}
+#Units th {
+	background-color: #fff;
+}
+#Units th, #example td {
+	padding: 3px 5px;
+}
+
+#Main {
+	border: 2px solid black;
+	width: 100%;
+	font-size: 20px;
+	background-color: lightblue;
+}
+
+#Main tr {
+	background-color: #eee;
+	border-top: 1px solid #fff;
+	font-size: 20px;
+}
+#Main tr:hover {
+	background-color: #ccc;
+}
+#Main th {
+	background-color: #fff;
+}
+#Main th, #example td {
+	padding: 3px 5px;
+}
+#Main td:hover {
+	cursor: pointer;
+}
+
+#Main a {
+   pointer-events: none;
+   cursor: default;
+}
+
+.not active {
+   pointer-events: none;
+   cursor: default;
+}
+
+.notreal {
+	border: none;
+}
+
+#search {
+	border-collapse: collapse;
+	border: none;
+}
+
+#search tr, #search td {
+	border: none;
+}
+
+
+#search td {
+	width: 25%;
+}
+.right { text-align: right; }
+.left { text-align: left; }
